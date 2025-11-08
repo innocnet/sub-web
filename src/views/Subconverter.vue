@@ -232,11 +232,16 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://192.168.192.31:25566/sub?" }],
         remoteConfig: [
           {
             label: "universal",
             options: [
+              {
+                label: "NOC",
+                value:
+                  "https://raw.githubusercontent.com/innocnet/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+              },
               {
                 label: "No-Urltest",
                 value:
