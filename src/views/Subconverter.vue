@@ -232,7 +232,7 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://rn.innocnet.cn:25566/sub?" }],
+        backendOptions: [{ value: "http://rn.innocnet.cn/subend/sub?" }],
         remoteConfig: [
           {
             label: "universal",
